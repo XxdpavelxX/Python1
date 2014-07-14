@@ -1,0 +1,21 @@
+Question #1:
+Write a for statement to bind each character of the lower-case alphabet to the name "c" (there is no need to write a loop body). 
+
+Answer #1:
+>>> for c in "abcdefghijklmnopqrstuvwxyz":
+
+or
+
+>>> import string
+>>> string.ascii_lowercase
+'abcdefghijklmnopqrstuvwxyz'
+
+>>> for c in string.ascii_lowercase
+
+
+
+Question #2:
+What should follow a for statement to comprise the body of a loop? 
+
+Answer #2:
+An indented suite, then more code.
