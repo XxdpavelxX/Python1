@@ -1,0 +1,35 @@
+Question #1:
+What operator do you use to see if two things are not equal? 
+
+Answer #1:
+!=
+
+Question #2:
+Is the following statement true?
+"O'Reilly School" == "O'REILLY SCHOOL"
+
+
+Answer #2:
+No it is not.
+
+
+Question #3:
+Which string method returns true if the string it's applied to is non-empty and comprised entirely of alphanumeric characters? 
+
+Answer #3:
+s.isalnum()
+
+
+Question #4:
+Write an expression that will be True if the string "tacky" is contained in the string s. 
+
+Answer #4:
+"tacky" in s
+
+
+Question #5:
+What keyword precedes the suite that will be executed if the condition in an if statement is false? 
+
+Answer #5:
+elif or else.
+Or another if.
