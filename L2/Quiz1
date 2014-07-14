@@ -1,0 +1,13 @@
+Question #1:
+What is a namespace? 
+
+Answer #1:
+Namespaces hold names, which refer to values (objects in object space). It is a list of names that you defined either explicitly or by importing from another module. when a module is imported then the names defined in the module are defined via that module's name space
+
+
+Question #2:
+How do you list the contents of a namespace? 
+
+Answer #2:
+You can do this using the dir() command.
+dir(some_object)
