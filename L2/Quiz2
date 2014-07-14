@@ -1,0 +1,14 @@
+Question #1:
+What are two ways you can add documentation to your Python module? 
+
+Answer #1:
+1) Triple quotations. """a"""
+2) Using # before a statement.
+
+Question #2:
+How do you separate multiple statements on the same line? 
+
+Give an example. 
+
+Answer #2:
+You can separate them using a semicolon even though it isn't recommended.
