@@ -1,0 +1,33 @@
+Question #1:
+How do you display braces '{ }'  in your formatted output? 
+
+Answer #1:
+{{ }}
+
+
+Question #2:
+How can you center your text? 
+
+Answer #2:
+With the ^ alignment option.
+
+For example: 
+
+st = 'Python'
+z = "ZOMBIE"
+z5 = z * 5
+print(z5)
+print("{2} {0:^{1}} {2}" .format(st, int(len(z5)/2) , z))
+print(z5)
+
+... which results in 
+ZOMBIEZOMBIEZOMBIEZOMBIEZOMBIE
+ZOMBIE             Python             ZOMBIE
+ZOMBIEZOMBIEZOMBIEZOMBIEZOMBIE
+
+
+Question #3:
+Which needs to come first, positional arguments or keyword arguments? 
+
+Answer #3:
+positional arguments.
