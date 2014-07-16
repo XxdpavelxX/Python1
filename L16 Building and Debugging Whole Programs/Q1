@@ -1,0 +1,19 @@
+Question #1:
+What is "agile" programming? 
+
+Answer #1:
+Agile programming are techniques focused on delivering the simplest code that meets the requirements. Agile methods place great emphasis on refactoring your code when it becomes too complex.
+
+
+Question #2:
+Why is testing so important? 
+
+Answer #2:
+Testing is important because it helps you find and locate bugs or other unexpected outcomes of your code. 
+
+
+Question #3:
+How can Python help you test your code? 
+
+Answer #3:
+Python comes with two testing frameworks built-in (unittest and doctest).
