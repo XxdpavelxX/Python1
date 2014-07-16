@@ -1,0 +1,15 @@
+Question #1:
+What is the name of the __xx__ method that lets you represent the value of a class as a string? 
+
+Answer #1:
+__str__
+
+Comments:
+Here's a bit of exploration of the difference between __repr__() and __str__()
+
+
+Question #2:
+Where can you store an instantiated object? 
+
+Answer #2:
+You can store it in a variable.
