@@ -1,0 +1,19 @@
+Question #1:
+The code while True: is an infinite loop. How do you terminate this loop? 
+
+Answer #1:
+break can terminate the loop.
+
+
+Question #2:
+Which dict method generates an iterable of (key, value) tuples? 
+
+Answer #2:
+The items() method.
+
+
+Question #3:
+How would you remove the dict item whose key is "Steve" from dict d? 
+
+Answer #3:
+del d['Steve"]
