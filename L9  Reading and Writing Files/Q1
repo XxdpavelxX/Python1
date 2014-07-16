@@ -1,0 +1,37 @@
+Question #1:
+How do you make a file available to your program?
+What do you do when you are finished working with the file?
+
+
+Answer #1:
+1. By using the open function.
+f = open()
+
+2. You close the file.
+f.close()
+
+(f = arbitrary name for open function)
+
+
+>>> f = open('junk.txt', 'w')
+>>> f
+<open file 'junk.txt', mode 'w' at 0xb6d08e38>
+>>> type(f)
+<type 'file'>
+>>> dir(f)
+['__class__', '__delattr__', '__doc__', '__enter__', '__exit__', '__format__', '__getattribute__', '__hash__', '__init__', '__iter__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'close', 'closed', 'encoding', 'errors', 'fileno', 'flush', 'isatty', 'mode', 'name', 'newlines', 'next', 'read', 'readinto', 'readline', 'readlines', 'seek', 'softspace', 'tell', 'truncate', 'write', 'writelines', 'xreadlines']
+>>> 
+
+Question #2:
+What methods can be used to:
+report if a file object is readable?
+report if a file object is writable?
+return a list of the lines in a file?
+
+
+Answer #2:
+1. f.readable()
+
+2. f.writeable()
+
+3.f.readlines()
