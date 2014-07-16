@@ -1,0 +1,18 @@
+Question #1:
+What is the prefix used for a sequence-parameter? 
+
+
+Answer #1:
+*
+
+as in *args, **kwargs 
+
+def some_func(*args, **kwargs):
+    etc.
+
+
+Question #2:
+What type of object does the sequence-parameter provide to the function body? 
+
+Answer #2:
+Tuple type objects
