@@ -1,0 +1,15 @@
+Question #1:
+How do you:
+check if all elements in a list, set, or tuple evaluate to true?
+return the methods and attributes associated with the value 'Python'?
+return all of the global variables?
+examine the documentation of an object?
+
+
+Answer #1:
+1. all(list)
+2. dir('Python')
+3. list(globals().items())
+4. help(object)
+
+
