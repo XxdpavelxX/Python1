@@ -1,0 +1,11 @@
+Question #1:
+How do you:
+calculate a non-negative value for any numeric input?
+calculate the highest value from the objects n1, n2, n3, and n4?
+round the value 1.3234 to the nearest integer?
+
+
+Answer #1:
+1. abs(numeric input)
+2. max(n1,n2,n3,n4)
+3. round(1.3234)
