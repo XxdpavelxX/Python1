@@ -1,0 +1,19 @@
+Question #1:
+What is the difference between a syntax error and an exception? 
+
+Answer #1:
+A syntax error is an error you made in code that will crash your program. It is a mistake made in code that violates python's syntax. Syntax errors are the most common type of errors. They return the message "invalid syntax".
+
+Exceptions are errors that are detected during execution (even if code is syntactically correct). They care caused by all kinds of mistakes.These errors return a message telling you exactly what went wrong.
+
+
+Question #2:
+How can you deal with exceptions in your code?
+
+How can you re-raise an exception? 
+
+Answer #2:
+You can go back and fix what is causing the exception in your code. You can also catch these errors using try/except statements.
+
+You can re-raise an exception by by executing a statement consisting of only the keyword raise. This will cause the same exception to be presented to the outer handlers.
+
