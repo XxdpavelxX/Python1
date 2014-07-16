@@ -1,0 +1,13 @@
+Question #1:
+If you had a file object f open for writing, how would you write the string "my text" to that file?
+
+If the same file object was open for reading, how would you print all of its contents in a single statement?
+
+
+
+Answer #1:
+f.write("my text")
+
+print (f.read())                                                                                        
+or
+print(f.readlines())
