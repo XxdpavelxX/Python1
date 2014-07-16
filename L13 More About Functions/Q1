@@ -1,0 +1,9 @@
+Question #1:
+What is the dict-parameter?
+What type of object is provided by the dict-parameter?
+
+
+Answer #1:
+1. It is used to capture keyword arguments who's names do not correspond with any parameters. It is placed as the prefix to the last defined parameter in a function.
+2. Dictionary type objects.
+
