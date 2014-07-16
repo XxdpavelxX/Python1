@@ -1,0 +1,46 @@
+Question #1:
+Look at the following code:
+x = {1,2,3,4,5}
+y = {4,5,6,7,8}
+How can you determine the numbers shared by both? 
+
+Answer #1:
+x.intersection(y)
+
+or
+
+x = {1,2,3,4,5}
+y = {4,5,6,7,8}
+>>> x&y
+set([4, 5])
+
+
+Question #2:
+How do you determine the length of a dict or set? 
+
+Answer #2:
+Using len()
+
+Comments:
+
+Question #3:
+How do you print all of the keys and values of a dict named d? 
+
+Answer #3:
+print (d)
+
+or
+
+>>> d
+(just type d into command shell if in python)
+
+or 
+
+for k in d.items():
+     print (k)
+
+or
+ 
+for key, value in d.items():
+        print(key, value)
+        
