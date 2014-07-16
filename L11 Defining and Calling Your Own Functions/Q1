@@ -1,0 +1,25 @@
+Question #1:
+Write a function that returns the string "This is now lowercase:" plus the lowercase representation of its string argument, as a single string. 
+
+Answer #1:
+def lower_case():
+        return "This is now lower case: "+a.lower()
+
+
+Question #2:
+Do parameters become arguments or do arguments become parameters? 
+
+Answer #2:
+Arguments become parameters.
+
+Parameters are the names you give to the inputs to the function when the function is defined. Arguments are the values you provide when you call the function. Inside the function body, code can access the arguments using the names of the parameters. 
+
+
+
+Question #3:
+Can a function access variables defined outside of its body? If so, where? 
+
+Answer #3:
+Yes. In other files or functions via the global or import method.
+#Functions in the same file share variables in the same file. A function can access a variable as long as its in the global namespace.
+
