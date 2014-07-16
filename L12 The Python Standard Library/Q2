@@ -1,0 +1,20 @@
+Question #1:
+What is sys.path? How is it used by the Python interpreter? 
+
+Answer #1:
+sys is a module which you have to import before you can examine it. After sys is imported you can search the paths to find a module. The interpreter searches the paths starting from the top until it finds the module. This path can be useful to know if you have a program that doesn't seem to be finding the module you wanted it to find.
+
+
+Question #2:
+What value does a module's __name__ attribute receive if the module is run as a program? 
+
+Answer #2:
+"__main__"
+
+
+
+Question #3:
+What is wrong with from module import * ? 
+
+Answer #3:
+"It puts the imported module in charge of what gets loaded into your namespace. Unless you are really familiar with the imported module's code, you'll have no way of knowing whether it defined symbols that you're already using. If it did define them, they will overwrite your definitions or your symbols will overwrite the definition from the modules. "
